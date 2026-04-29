@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=template.map -O0 --gc-sections -lgcc -lc -lm -LG:\Lib\coocox\configuration\ProgramData\template -TG:\Lib\coocox\configuration\ProgramData\template/link.ld -g">
+      <target file="template.elf" lastModified="19dcda634ca">
+         <source file="..\obj\heap_4.o" lastModified="19dc9f0ed0d"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="19dc9f0ee4e"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="19dc9f0eedd"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="19dc9f0ef4e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="19dc9f0f04b"/>
+         <source file="..\obj\main.o" lastModified="19dcda6323b"/>
+         <source file="..\obj\timers.o" lastModified="19dc9f0f213"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="19dc9f0f2d1"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="19dc9f0f37e"/>
+         <source file="..\obj\tasks.o" lastModified="19dc9f0f4e7"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="19dc9f0f5ca"/>
+         <source file="..\obj\list.o" lastModified="19dc9f0f655"/>
+         <source file="..\obj\syscalls.o" lastModified="19dc9f0f810"/>
+         <source file="..\obj\port.o" lastModified="19dc9f0f8ca"/>
+         <source file="..\obj\queue.o" lastModified="19dc9f0fa06"/>
+         <source file="..\obj\stream_buffer.o" lastModified="19dc9f0fb54"/>
+         <source file="..\obj\croutine.o" lastModified="19dc9f0fbe3"/>
+         <source file="..\obj\event_groups.o" lastModified="19dc9f0fc9d"/>
+      </target>
+   </processor>
+</history>

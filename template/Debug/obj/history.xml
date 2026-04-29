@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\portable\GCC -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\stm_lib -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\portable\GCC\ARM_CM3 -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos -ID:\BAITAP\88-STM\New folder\RTOS -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\portable -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\cmsis_boot -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\include -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\cmsis -ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\stm_lib\inc">
+      <target file="tasks.o" lastModified="19dc9f0f4e7">
+         <source file="..\..\..\FreeRTOS_Kernel\tasks.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="19dc9f0f2d1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="19dc99b41b6"/>
+      </target>
+      <target file="stream_buffer.o" lastModified="19dc9f0fb54">
+         <source file="..\..\..\FreeRTOS_Kernel\stream_buffer.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="event_groups.o" lastModified="19dc9f0fc9d">
+         <source file="..\..\..\FreeRTOS_Kernel\event_groups.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="croutine.o" lastModified="19dc9f0fbe3">
+         <source file="..\..\..\FreeRTOS_Kernel\croutine.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="queue.o" lastModified="19dc9f0fa06">
+         <source file="..\..\..\FreeRTOS_Kernel\queue.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="19dc9f0ef4e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="19dc99b41fb"/>
+      </target>
+      <target file="heap_4.o" lastModified="19dc9f0ed0d">
+         <source file="..\..\..\FreeRTOS_Kernel\portable\MemMang\heap_4.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="list.o" lastModified="19dc9f0f655">
+         <source file="..\..\..\FreeRTOS_Kernel\list.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="port.o" lastModified="19dc9f0f8ca">
+         <source file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\port.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="19dc9f0f04b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="19dc99b4b01"/>
+      </target>
+      <target file="timers.o" lastModified="19dc9f0f213">
+         <source file="..\..\..\FreeRTOS_Kernel\timers.c" lastModified="197f01b08a8"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="19dc9f0f37e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="19dc99b504f"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="19dc9f0eedd">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="19dc99b4248"/>
+      </target>
+      <target file="syscalls.o" lastModified="19dc9f0f810">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="19dc99b348e"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="19dc9f0ee4e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="19dc99bc60b"/>
+      </target>
+      <target file="main.o" lastModified="19dcda6323b">
+         <source file="..\..\..\main.c" lastModified="19dcda62c10"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="19dc9f0f5ca">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="19dc99b62cb"/>
+      </target>
+   </processor>
+</history>

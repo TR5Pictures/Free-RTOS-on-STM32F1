@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\portable\GCC /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\stm_lib /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\portable\GCC\ARM_CM3 /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos /ID:\BAITAP\88-STM\New folder\RTOS /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\portable /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\cmsis_boot /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\FreeRTOS_Kernel\include /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\cmsis /ID:\BAITAP\88-STM\New folder\RTOS\temp_rtos\stm_lib\inc">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="19dc99b4a82">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\croutine.h" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\list.h" lastModified="197f01b08a8">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\tasks.c" lastModified="197f01b1c30">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\timers.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\stack_macros.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\stack_macros.h" lastModified="197f01b08a8">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="19dc99b41a3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="19dc99b504f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="19dc99b4b01">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\newlib-freertos.h" lastModified="197f01b0c90">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\queue.h" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\mpu_wrappers.h" lastModified="197f01b08a8">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="19dc99b4266">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="19dc99b4248">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="19dc99b4234">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\FreeRTOSConfig.h" lastModified="1980bd80fdc">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="19dc99b62aa">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\portable\MemMang\heap_4.c" lastModified="197f01b1078">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h" lastModified="197f01b08a8">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\task.h" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\list.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="19dc99b41fb">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\stream_buffer.c" lastModified="197f01b0c90">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\stream_buffer.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="19dc99bc60b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\stream_buffer.h" lastModified="197f01b08a8">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="19dc99b62cb">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\event_groups.h" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\timers.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\deprecated_definitions.h" lastModified="197f01bd3c8">
+         <include file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="19dc99b442e">
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\timers.c" lastModified="197f01b0c90">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\queue.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\timers.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\projdefs.h" lastModified="197f01b08a8">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="19dc99b41b6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="19dc99b4607">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h" lastModified="197f01b1078">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\projdefs.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\portable.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\newlib-freertos.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\picolibc-freertos.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\event_groups.c" lastModified="197f01b0c90">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\timers.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\event_groups.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\picolibc-freertos.h" lastModified="197f01b0c90">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="19dc99b503c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="19dc99b4aec">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="19dc99bc5f6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\timers.h" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\croutine.c" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\port.c" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\queue.c" lastModified="197f01b1078">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\task.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\queue.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\include\portable.h" lastModified="197f01b08a8">
+         <include file="..\..\..\FreeRTOS_Kernel\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS_Kernel\list.c" lastModified="197f01b0c90">
+         <include file="..\..\..\FreeRTOS_Kernel\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS_Kernel\include\list.h"/>
+      </source>
+   </includePath>
+</dependencies>
